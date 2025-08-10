@@ -1,0 +1,19 @@
+fastapi==0.111.0
+uvicorn[standard]==0.30.0
+pydantic==2.7.0
+python-dotenv==1.0.1
+sqlalchemy==2.0.31
+psycopg2-binary==2.9.9
+neo4j==5.22.0
+pandas==2.2.2
+openpyxl==3.1.5
+plotly==5.22.0
+matplotlib==3.9.0
+requests==2.32.3
+
+# LlamaIndex core + integrations
+llama-index==0.11.0
+llama-index-llms-openai==0.2.0
+llama-index-embeddings-openai==0.5.0
+llama-index-vector-stores-postgres==0.2.2
+llama-index-graph-stores-neo4j==0.5.0
