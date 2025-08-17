@@ -12,11 +12,14 @@ help:
 
 # Install Python deps locally for testing (virtualenv recommended)
 init:
-	pip install -r backend/requirements.txt
+	cd backend && poetry install --no-root
 
 # Build images using docker compose
 build-docker:
 	docker compose build
+
+logs-docker:
+	docker compose logs -f
 
 # Start services in detached mode
 start-docker:
